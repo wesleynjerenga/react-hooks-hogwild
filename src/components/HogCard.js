@@ -10,7 +10,7 @@ function HogCard({ hog }) {
   return (
     <div className="ui card" onClick={handleClick}>
       <div className="image">
-        <img src={hog.image} alt={hog.name} />
+        <img src={hog.image || "default-image-url.jpg"} alt={hog.name} />
       </div>
       <div className="content">
         <h3 className="header">{hog.name}</h3>

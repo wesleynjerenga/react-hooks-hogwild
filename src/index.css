@@ -140,6 +140,13 @@ ul {
   clear: both;
 }
 
+.ui.card {
+  cursor: pointer;
+}
+
+.ui.grid.container {
+  margin-top: 20px;
+}
 
 @keyframes App-logo-spin {
   from {
